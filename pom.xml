@@ -5,15 +5,7 @@
     <groupId>cn.huayq</groupId>
     <artifactId>HuaRpc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>service</module>
-        <module>common</module>
-        <module>registry</module>
-        <module>core</module>
-        <module>test</module>
-    </modules>
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>1.8</java.version>
@@ -22,6 +14,7 @@
         <spring-boot.version>2.7.6</spring-boot.version>
         <curator.version>4.2.0</curator.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
