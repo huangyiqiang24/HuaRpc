@@ -9,7 +9,16 @@ import java.net.InetSocketAddress;
  */
 public interface RegistryService {
 
+    /**
+     * 服务注册
+     * @param serviceName       服务名
+     * @param inetSocketAddress ip+port
+     */
     void registry(String serviceName, InetSocketAddress inetSocketAddress);
 
+    /**
+     * 服务发现
+     * @return ip+port
+     */
     InetSocketAddress discovery();
 }
